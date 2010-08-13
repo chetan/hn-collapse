@@ -35,7 +35,7 @@ jQuery(function($) {
 		// $("span.collapse").remove();
 		return;
 	} else if (domaincheck && !hn.test(location.href)) {
-		alert("This bookmarklet only applies to the comments sections of Hacker News, at http://news.ycombinator.com/");
+		// alert("This bookmarklet only applies to the comments sections of Hacker News, at http://news.ycombinator.com/");
 		return;
 	}
 	
